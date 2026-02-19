@@ -9,4 +9,4 @@
    * 請自行下載 `ffmpeg.exe` 及 `deno.exe` 及 `libopus-0.dll`。
    * 將它們放入專案根目錄中。
 4. **執行程式**：`python src/main.py`
-5. **執行程式**：`pyinstaller --noconfirm --onefile --console --name "DiscordMusicBot" --add-data "tools;tools" --add-data "src;src" --collect-all "nacl" --collect-all "cffi" --collect-binaries "discord" --add-binary "tools/libopus-0.dll;tools" .\src\main.py`
+5. **打包指令**：`pyinstaller --noconfirm --onefile --console --name "DiscordMusicBot" --add-data "tools;tools" --add-data "src;src" --collect-all "nacl" --collect-all "cffi" --collect-binaries "discord" --add-binary "tools/libopus-0.dll;tools" .\src\main.py`
