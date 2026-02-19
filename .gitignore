@@ -1,24 +1,2 @@
-# 虛擬環境
-.venv/
-venv/
-env/
-
-# Python 快取
-__pycache__/
-*.py[cod]
-
-# 打包產生的暫存與輸出
-build/
-dist/
-*.spec
-
-# 外部工具 (建議讓使用者自行下載，保持倉庫輕量)
-tools/
-
-# 個人隱私與設定
-.env
-*.log
-
-Lib/
-Scripts/
-share/
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
